@@ -1,11 +1,12 @@
 import './App.css';
-import { Box, Flex } from '@chakra-ui/react';
 import Header from './components/Header';
+import Pricing from './components/Pricing';
 
 function App() {
 	return (
 		<div>
 			<Header />
+			<Pricing />
 		</div>
 	);
 }

@@ -3,7 +3,14 @@ import { Box, Text, Heading } from '@chakra-ui/react';
 function Header() {
 	return (
 		<div>
-			<Box color="#F7FAFC" bg={'#6B46C1'}>
+			<Box
+				as="section"
+				color="#F7FAFC"
+				bg={'#6B46C1'}
+				pt={'90px'}
+				pb={'198px'}
+				px={'32px'}
+			>
 				<Heading fontWeight="800" fontSize={'48px'}>
 					Simple pricing for your business
 				</Heading>
